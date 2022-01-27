@@ -31,4 +31,15 @@ Archivos en verde => listos para almacenar
 
 7.git commit -m "titulo de los archivos"
 
+*Hasta aqui se han guardado cambios en los archivos 
+*Esto solo existe de forma local (en el equipo)
+
+Desde github.com
+
+Crearemos repositorio que vinvularemos con el repositorio de la computadora
+
+1. Crear nuevo repositorio (Nombre/Publico)
+
+
+
 
