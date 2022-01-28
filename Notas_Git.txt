@@ -42,4 +42,13 @@ Crearemos repositorio que vinvularemos con el repositorio de la computadora
 
 
 
+Subir cambios nuevos de nuestro repositorio
+1. Hacer modificacion ( Crear/añadir un archivo o modificar archivo existente)
+Ubicarse en la Terminal en la carpeta de mi repositorio
+2. git status
+3.git add . (añadir todos los archivo)
+4. git status
+5.git commit -m (titulo)
+6.git push
+
 
