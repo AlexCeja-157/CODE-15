@@ -20,4 +20,5 @@ clear o cls => permite limpiar la terminal
 
 history => muestra el historial de Comandos
 
+mkdir => crea carpeta
 
