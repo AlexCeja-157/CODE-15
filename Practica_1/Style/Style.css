@@ -1,0 +1,62 @@
+<style>
+body {
+    margin: 0;
+}
+
+header img {
+    width: 360px;   
+}
+
+#Inicio {
+    background-color: #C72D82;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+nav, a{ color: white;
+        text-decoration: none;
+}
+h2 {
+    color: #41A4DD;
+}
+article img {
+    width: 240px;
+}
+
+article button {
+    font-weight: bold;
+    background-color: #41A4DD;
+    color: white;
+    border-color: #41A4DD;
+    padding: 4px 16px;
+}
+
+aside a {
+    color: #41A4DD;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding-left: 8px;
+}
+
+footer {
+    background-color: #C72D82;
+}
+
+footer > section {
+    background-color: #C72D82;
+    color: white;
+}
+
+footer > div {
+    background-color: #9C2467;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 16px 0;
+}
+
+
+</style>
