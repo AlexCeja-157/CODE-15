@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica_Form</title>
+</head>
+
+<style>
+    body{
+        background-color: green;
+        color: red;
+    }
+    label,
+    h1, p{
+        color: yellow;
+    }
+
+    label[for="Genero"]{
+        color: aqua;
+    }
+
+    .demo-clase-hover {
+        color: aliceblue;
+    }
+
+</style>
+<body>
+
+    
+    <h1>Formulario de Datos</h1><br>
+
+    <form action="contacto.html" method="get">
+        
+        <label for="Nombre">Nombre</label>
+		<input type="text" name="Nombre" placeholder="Ingrese su nombre" minlength="2" maxlength="20" required>
+        <label for="Apellido">Apellido</label>
+		<input type="text" name="Apellido" placeholder="Ingrese su Apellido" minlength="2" maxlength="20" required><br>
+		<label for="Email">Email</label>
+		<input type="Email" name="Email" placeholder="Ingrese su Email" minlength="2" maxlength="20" required><br>
+        <label for="Edad">Edad</label>
+		<input type="number" name="Edad" placeholder="Ingrese su Edad" required><br><br>
+        <label for="Genero">Genero</label><br>
+		<input type="radio" name="Genero" checked value="Masculino"><label>Masculino</label>
+		<input type="radio" name="Genero" value="Femenino"><label>Femenino</label><br><br>
+        <label for="Pass">Contraseña</label>
+        <input type="password" name="pass" placeholder="Ingresa Contraseña" autocomplete="off" required ><br><br>
+		<label for="Lenguaje">Selecciona Idioma</label>
+        <select name="Lenguaje" id="Lenguaje">
+            <option value="Español">Español</option>
+            <option value="Ingles">Ingles</option>
+            <option value="Frances">Frances</option>
+        </select><br><br>
+        <label for="Color">Selecciona Color Favorito</label>
+        <input type="color" name="Color"><br><br>
+
+		<input type="checkbox" name="Compartir" value="Compartir"><label>Aceptas compartir datos</label><br>
+		<input type="checkbox" name="OK" value="OK"><label>Aceptas que le agarraste la onda</label><br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
