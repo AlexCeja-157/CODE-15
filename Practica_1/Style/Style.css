@@ -20,6 +20,17 @@ nav, a{ color: white;
 h2 {
     color: #41A4DD;
 }
+
+.blog-post {
+    overflow: auto;
+}
+
+.blog-post img{
+    overflow: auto;
+}
+
+
+
 article img {
     width: 240px;
 }
@@ -54,9 +65,12 @@ footer > div {
     background-color: #9C2467;
     color: white;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 16px 0;
 }
+
+
+
 
 
 </style>

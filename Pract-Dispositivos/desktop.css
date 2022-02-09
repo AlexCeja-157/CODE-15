@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+}
+
+div {
+margin: 10px;
+border: 1px solid black ;
+width: 33%;
+height: 800px;
+}
+
+.Container-1 {
+    background-color: blue;
+}
+
+.Container-2 {
+    background-color: blue;
+}
+
+.Container-3{
+    background-color: coral;
+}
+
+@media screen and (max-width: 700px){
+    body {
+        display: block;
+        width: 100%;     
+    }
+    
+    .Container-1 {
+        display: inline-flex;
+        width: 45%;
+        height: 450px;
+        
+    }
+     .Container-2 {
+        display: inline-flex;
+        width: 45%;
+        height: 450px;
+    }
+     .Container-3 {
+        
+        width: 94%;
+        height: 350px;
+    }
+
+@media screen and (max-width:501px) {
+    
+    .Container-1 {
+        width: 90%;
+        height: 400px;
+    }
+     .Container-2 {
+        width: 90%;
+        height: 400px;
+    }
+     .Container-3 {
+        width: 90%;
+        height: 400px;    
+
+}
