@@ -63,3 +63,37 @@ h3 {
     width: 65%;   
 }
 
+@media screen and (max-width: 1100px) {
+    
+    .conten-1 {
+        width: 50%;
+    }
+
+    .conten-2 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    .links {
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .conten-1 {
+        width: 100%;
+    }
+
+    .conten-2 {
+        width: 100%;
+    }
+
+
+
+}
+

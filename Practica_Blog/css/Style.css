@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 360px;
+    padding-left: 190px;
+}
+
+.menu {
+    background-color: #C72D82;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 190px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/*Main*/
+
+h1 {
+    font-size: 25px;
+    color: #41A4DD;
+    margin-bottom: 10px;
+}
+
+
+article , aside {
+    clear: both;
+    overflow: auto;
+    position: relative;
+    margin: 20px;
+}
+
+article img {
+    width: 240px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.blog-cont {
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+article button {    
+    font-weight: bold;
+    background-color: #41A4DD;
+    color: white;
+    border-color: #41A4DD;
+    padding: 4px 16px;
+    
+}
+
+aside a {
+    color: #41A4DD;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;;
+}
+
+main {
+    display: flex;
+    padding: 0 150px;
+}
+
+.back {
+    display: flex;
+    padding: 10px 170px;
+}
+
+.blog {
+    width: 70%;
+    margin: 20px;
+}
+
+.otros {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.otros li {
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* Footer */
+footer > section{
+    background-color: #C72D82;
+    display: flex;
+}
+
+.info {
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+.menu-back {
+    width: 50%;
+    text-align: right;
+    color: white;
+    padding: 0;
+}
+
+.menu-back a {
+    margin: 5px;
+}
+
+
+footer > div {
+    background-color: #9C2467;
+    color: white; 
+    text-align: center;
+    font-size: 12px;
+    padding: 16px 0; 
+}
+
+@media screen and (max-width: 820px) {
+    
+    main {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .blog {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .back {
+        display: block;
+        margin: 0;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .info,.menu-back {
+        display: inline;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    header img {
+        width: 90%;
+        padding : 5px 20px;
+    }
+
+    .menu {
+    background-color: #C72D82;
+    text-align: center;
+    padding: 10px 16px;
+    display:flex;
+    flex-direction: column;
+    }
+    
+    .blog-cont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-cont img {
+        width: 100%;
+    }
+
+    .blog-cont p {
+        text-align: justify;
+    }
+
+    .otros {
+        width: 300px;
+        text-align: left;
+        margin: 0;        
+    }
+
+    .back {
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+
+    
+}
