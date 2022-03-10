@@ -9,7 +9,70 @@
     
 </head>
 <body>
-    <h1>Intro</h1>
+    <h1>Juego Piedra, Papel o Tijeras</h1>
+    
+    <form>
+        <input type="button"
+        onclick="miFuncion()"
+        value="Jugar">
+        </form>
+    
+    <script type="text/javascript">
+        function miFuncion()
+        {
+            alert('Jugaremos Piedra, Papel o Tijera');
+console.log('Jugaremos Piedra, Papel o Tijera');
+alert('Ingresa el nombre en minusculas (piedra, papel o tijeras)');
+
+
+let play1 = prompt("Jugador 1 ingresa tu tiro");
+    console.log(play1)
+let play2 = prompt("Jugador 2 ingresa tu tiro");
+    console.log(play2)
+
+if(play1 == "piedra" & play2 == "tijeras" ){
+    console.log("Ganador Jugador 1")
+    alert("Ganador Jugador 1 - Piedra mata a Tijeras")
+} else if(play1 == "piedra" & play2 =="papel"){
+    console.log("Ganador Jugador 2")
+    alert("Ganador Jugador 2 - Papel mata a Piedra")
+}else if(play1 == "piedra" & play2 =="piedra"){
+    console.log("Empate, vuelve a tirar")
+    alert("Empate, vuelve a tirar")
+}else if(play1 == "papel" & play2 == "piedra"){
+    console.log("Ganador Jugador 1")
+    alert("Ganandro Jugador 1 - Papel mata a Piedra")
+}else if(play1 == "papel" & play2 == "tijeras"){
+    console.log("Ganador Jugador 2")
+    alert("Ganandro Jugador 2 - Tijeras mata a Papel")
+}else if(play1 == "papel" & play2 == "papel"){
+        console.log("Empate, vuelve a tirar")
+        alert("Empate, vuelve a tirar")
+}else if(play1 == "tijeras" & play2 == "papel"){
+    console.log("Ganador Jugador 1")
+    alert("Ganandro Jugador 1 - Tijeras mata a Papel")
+}else if(play1 == "tijeras" & play2 == "piedra"){
+    console.log("Ganador Jugador 2")
+    alert("Ganandro Jugador 2 - Piedra mata a Tijeras")
+}else if(play1 == "tijeras" & play2 == "tijeras"){
+    console.log("Empate, vuelve a tirar")
+    alert("Empate, vuelve a tirar")
+}else {
+    console.log("Se ingresaron mal los nombres")
+    alert("se ingresaron mal los nombres")
+};
+
+};
+        </script>
+        
+        </head>
+        <body>
+        
+        
+        
+        
+        
+        
 
 
 
