@@ -1,0 +1,84 @@
+------------------- Crear un repositorio --------------------
+
+1. Crear carpeta del proyecto
+2. Crear archivos (html,css)
+3. Abrir Terminal
+4. Posicionarse en la carpeta del proyecto
+5. Ejecutar en la terminal
+	git init
+	git status
+	git add .
+	git commit -m "Descripcion"
+6. Abrir Github
+7. Crear nuevo repositorio
+8. Ejecutar codigos de GitHub
+9. Actualizar Github
+10. Revisar archivos del repositorio
+ 
+------------------- Actualizar  cambios en un repositorio --------------------
+
+1. Ejecutar codigos en la Terminal
+2. git status
+3. git add .
+4. git commit -m "Descripcion"
+5. git push
+
+
+------------------- Enlaces de Header ---------------------
+
+<link rel="stylesheet" href="css/Normalize.css"> Da formato inicial
+
+<link rel="stylesheet" href="css/style.css">  Enlace de css
+
+<link rel="shortcut icon" href="img/logo.png"> Coloca Icono a Pestaña Explorador
+
+<script src="https://kit.fontawesome.com/0a3277d9af.js" crossorigin="anonymous"></script>  Enlace de Formas
+
+
+
+------------------- Paginas de Apoyo de CSS --------------------
+
+Iconos => https://www.canva.com/
+
+Colores => https://colorhunt.co/
+
+Convierte a CSS3 => https://autoprefixer.github.io/
+
+Iconos =>  https://fontawesome.com/
+
+-------------------   ---------------------
+
+Que es un programa?
+
+Es una secuencia de instrucciones y comandos escritos en codigo 
+para realizar una tarea concreta en un ordenador o dispositivo.
+
+Qeu es un Algoritmo?
+
+Es un conjunto de Instrucciones o reglas definidas y no ambiguas, ordenadas y finitas
+que permiten, tipicamente, solucionar un problema,y llevar a cabo tareas o actividades.
+
+Que es un Lenguaje de Programacion?
+
+Es un lenguaje formal que proporciona unaserie de instruccioes que permiten a un 
+programador escribir secuencias de ordenes.
+
+Que es JavaScrip (JS)...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
