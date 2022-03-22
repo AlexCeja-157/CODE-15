@@ -131,6 +131,45 @@ if(play1 == "piedra" & play2 == "tijeras" ){
 };
 
  */
+/* 
+let num1 = prompt("Ingresa Primer Numero");
+    console.log(num1)
+let num2 = prompt("Ingresa Segundo Numero");
+    console.log(num2)
+let num3 = prompt("Ingresa Tercer Numero");
+    console.log(num3)
+
+if(num1 >= num2){
+    var parcial = num1}    
+        if(parcial >= num3){
+        var result = parcial
+        console.log(result) }      
+        }else if(parcial >= num3){
+        var result = num3
+        console.log(result)}
+
+    }else if(num2 >= num1){
+    var parcial = num2
+    console.log(parcial)
+    }if(parcial >= num3){
+    var result = parcial
+    console.log(result)       
+    }else if(parcial >= num3){
+    var result = num3
+    console.log(result)
+};
+
+alert(result);
+
+ */
+
+
+
+
+
+
+
+
 
 
 
