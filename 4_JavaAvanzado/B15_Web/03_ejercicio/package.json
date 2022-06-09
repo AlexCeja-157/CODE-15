@@ -1,0 +1,25 @@
+{
+  "name": "03_ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inicia": "nodemon index.js",
+    "primer_ejercicio": "nodemon ejercicio_01.js",
+    "segundo_ejercicio": "nodemon ejercicio_02.js",
+    "tercero_ejercicio": "nodemon ejercicio_03.js",
+    "cuarto_ejercicio": "nodemon ejercicio_04.js",
+    "quinto_ejercicio": "nodemon ejercicio_05.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16"
+  }
+}
