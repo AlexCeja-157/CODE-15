@@ -8,5 +8,6 @@ var getStar = function(star){
     return console.log(infoStar)
 };
 
+
 module.exports = {getStar,getName};
 
