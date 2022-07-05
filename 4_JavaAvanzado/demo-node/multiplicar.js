@@ -1,5 +1,6 @@
-function multiplicar(){
-    console.log(7*3)
+function multiplicar(num1,num2){
+    console.log(num1*num2)
 };
 
-multiplicar();
+multiplicar(7,5);
+
