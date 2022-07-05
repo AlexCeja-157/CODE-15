@@ -1,7 +1,9 @@
 console.log('Hola Mundo')
 
-function helloWorld (){
-    console.log('Hello World!!');
+function helloWorld (name){
+    console.log(`Hola ${name} !!`);
+    console.log( 1 + 1 );
 }
 
-helloWorld();
+helloWorld("Alex");
+
