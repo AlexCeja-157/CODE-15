@@ -1,0 +1,103 @@
+
+/*** Primeramente Generamos nuestra carpeta ***/
+
+mkdir -Nombre de la Carpeta-
+
+/***Ingresamos a la carpeta ***/
+
+cd -Carpeta-
+
+/*** Instalamos el package.json ***/
+
+npm init -y
+
+
+/*** Instalamos Nodemon ***/
+
+npm i nodemon --save-dev
+
+/*** Generamos un .gitignore para el node_modules ***/
+
+touch .gitignore
+
+/*** Ingresamos el codigo dentro del .gitignore para ignorar el tamaño de node_modules ***/
+
+.DS_Store
+/*/node_modules
+
+/*** Generamos un index.js ***/
+
+touch index.js
+
+/*** Modificamos en el package en los "scrips" el test ***/
+
+"test": "nodemon index.js"
+
+/*** corremos el test para verificar que este todo ok ***/
+
+npm run test
+
+/*** Se selecciona la API a trabajar ***/
+
+/*** Se instalo follow-redirects para corregir un error  ***/
+
+npm i follow-redirect
+
+
+
+
+
+/*** Instalar react
+
+npx create-react-app (Nombre de la carpeta)
+
+
+Success! Created my-app at C:\Users\Alex Ceja\Desktop\DevF\CODE-15\05_Frontend\my-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-app
+  npm start
+  
+  Happy hacking!
+
+
+
+Instalar yarn
+
+npm install --global yarn
+
+sudo npm install --global yarn
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

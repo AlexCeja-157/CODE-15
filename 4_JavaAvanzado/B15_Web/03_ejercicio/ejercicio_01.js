@@ -1,5 +1,5 @@
 function mensajedeBienvenida() {
-    return console.info('Adios Mundo Cruel');
+    return console.info('Adios Mundo Cruel,');
 }
 
 function muestraMSN(callback){
