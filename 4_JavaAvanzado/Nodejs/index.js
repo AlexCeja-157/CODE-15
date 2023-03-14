@@ -5,5 +5,10 @@ function helloWorld (name){
     console.log( 1 + 1 );
 }
 
-helloWorld("Alex");
+helloWorld("Alexander");
 
+function SaludoBienvenida (nombre){
+    console.log (`Welcome ${nombre} !!`)
+}
+
+SaludoBienvenida("Crhis")
