@@ -11,10 +11,15 @@ cd -Carpeta-
 
 npm init -y
 
+/*** Instalamos Babel ***/
+
+npm install -D @babel/cli @babel/core @babel/preset-env @babel/node
 
 /*** Instalamos Nodemon ***/
 
 npm i nodemon --save-dev
+
+npm install -D nodemon
 
 /*** Generamos un .gitignore para el node_modules ***/
 
@@ -37,7 +42,22 @@ touch index.js
 
 npm run test
 
-/*** Se selecciona la API a trabajar ***/
+/*** Trabajar con API's  ***/
+
+API = Application Programming Interface
+
+
+/*** Como se conforma una URL  ***/
+
+http://www.cursodweb.com.uy/diccionario/index.php
+
+Protocolo =  http:
+Subdominio = www.
+Dominio= cursodweb.com.uy
+Path o camino del directorio = /diccionario/
+Nombre del Archivo o Recurso = index.php 
+
+
 
 /*** Se instalo follow-redirects para corregir un error  ***/
 

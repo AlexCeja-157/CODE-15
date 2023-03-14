@@ -1,0 +1,17 @@
+npm init -y
+git init
+npm install express
+npm i nodemon 
+
+
+npm i serverless-http
+npm install netlify-cli -g
+
+
+npm run dev
+npm run build
+
+
+Cristian Gutierrez
++573136160936
+https://www.linkedin.com/in/cristian-gutierrez-dv/
