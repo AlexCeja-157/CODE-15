@@ -11,8 +11,8 @@ const{ crearMascota,
 ;
 //CRUD de Mascotas
 
-router.post('/mascotas', crearMascota)
-router.get ('/mascotas', verifyToken, obtenerTodasMascotas)
+router.post('/mascotas', verifyToken, crearMascota)
+router.get ('/mascotas',  obtenerTodasMascotas)
 router.get('/mascotas/:idMascota', obtenerMascota)
 router.put('/mascota/:idMascota', modificarMascota)
 router.delete('/mascota/:idMascota', eliminarMascota)
